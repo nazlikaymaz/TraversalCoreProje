@@ -12,7 +12,7 @@ namespace DataAccessLayer.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=.;database=TraversalDb; integrated security=true;");
+            optionsBuilder.UseSqlServer("server=.; database=TraversalDb; integrated security=true;");
         }
 
         public DbSet<About> Abouts { get; set; }
