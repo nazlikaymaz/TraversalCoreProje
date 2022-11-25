@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DTOLayer.DTOs.AppUserDTOs
 {
-    public class AppUserLoginDTO
+    public class AppUserLoginDTOs
     {
         public string UserName { get; set; }
         public string Password { get; set; }
